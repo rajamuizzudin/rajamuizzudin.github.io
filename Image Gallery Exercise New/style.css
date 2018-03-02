@@ -1,0 +1,53 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    background-color: rgb(155, 166, 201);
+    margin: 0;
+}
+
+.gallery-items {
+    display: inline-block;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.gallery-items img {
+    max-width: 200px;
+}
+
+.gallery-items .caption {
+    display: none;
+}
+
+.lightbox {
+    position: fixed;
+    background-color: rgba(99, 208, 235, 0.397);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 80px;
+    color: whitesmoke;
+}
+
+.lightbox img {
+    max-height: 60vh;
+}
+
+.lightbox a {
+    color: whitesmoke;
+}
+
+.lightbox-close {
+    float: right;
+}
+
+.lightbox-content {
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
+}
